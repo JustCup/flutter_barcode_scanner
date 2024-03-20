@@ -30,7 +30,6 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry;
 import io.flutter.plugin.common.PluginRegistry.ActivityResultListener;
 import io.flutter.plugin.common.EventChannel.StreamHandler;
-import io.flutter.embedding.engine.plugins.lifecycle.FlutterLifecycleAdapter;
 
 
 /**
