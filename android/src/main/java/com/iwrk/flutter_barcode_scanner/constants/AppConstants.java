@@ -1,4 +1,4 @@
-package android.src.main.java.com.iwrk.flutter_barcode_scanner.constants;
+package com.iwrk.flutter_barcode_scanner.constants;
 
 public interface AppConstants {
     int BARCODE_RECT_WIDTH = 350;
