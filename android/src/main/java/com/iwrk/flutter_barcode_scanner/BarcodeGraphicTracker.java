@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package android.src.main.java.com.iwrk.flutter_barcode_scanner;
+package com.iwrk.flutter_barcode_scanner;
 
 import android.content.Context;
 import androidx.annotation.UiThread;
 
-import com.amolg.flutterbarcodescanner.camera.GraphicOverlay;
+import com.iwrk.flutter_barcode_scanner.camera.GraphicOverlay;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;

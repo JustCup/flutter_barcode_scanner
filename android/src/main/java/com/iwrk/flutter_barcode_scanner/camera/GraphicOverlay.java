@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package android.src.main.java.com.iwrk.flutter_barcode_scanner.camera;
+package com.iwrk.flutter_barcode_scanner.camera;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -26,10 +26,10 @@ import android.util.AttributeSet;
 import android.view.View;
 
 
-import com.amolg.flutterbarcodescanner.BarcodeCaptureActivity;
-import com.amolg.flutterbarcodescanner.FlutterBarcodeScannerPlugin;
-import com.amolg.flutterbarcodescanner.constants.AppConstants;
-import com.amolg.flutterbarcodescanner.utils.AppUtil;
+import com.iwrk.flutter_barcode_scanner.BarcodeCaptureActivity;
+import com.iwrk.flutter_barcode_scanner.FlutterBarcodeScannerPlugin;
+import com.iwrk.flutter_barcode_scanner.constants.AppConstants;
+import com.iwrk.flutter_barcode_scanner.utils.AppUtil;
 
 import java.util.HashSet;
 import java.util.List;

@@ -1,4 +1,4 @@
-package android.src.main.java.com.iwrk.flutter_barcode_scanner;
+package com.iwrk.flutter_barcode_scanner;
 
 import android.app.Activity;
 import android.app.Application;
