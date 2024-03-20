@@ -265,7 +265,7 @@ public class FlutterBarcodeScannerPlugin implements MethodCallHandler, ActivityR
         } else {
             // V2 embedding setup for activity listeners.
             activityBinding.addActivityResultListener(this);
-            lifecycle = FlutterLifecycleAdapter.getActivityLifecycle(activityBinding);
+            lifecycle = (Lifecycle) activityBinding.getLifecycle();
             observer = new LifeCycleObserver(activity);
             lifecycle.addObserver(observer);
         }
